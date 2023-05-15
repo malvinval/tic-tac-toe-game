@@ -75,7 +75,7 @@ const TicTacToe = () => {
                 <h1 id="winner-text">{winner !== "" ? `Player ${winner} win!` : ""}</h1>
                 <div id="footer">
                     <p>Created by MalvinVal</p>
-                    <p>View the source code <a href='https://github.com/malvinval/tic-tac-toe'>here</a>.</p>
+                    <p>View the source code <a href='https://github.com/malvinval/tic-tac-toe-game'>here</a>.</p>
                 </div>
             </div>
         </>
