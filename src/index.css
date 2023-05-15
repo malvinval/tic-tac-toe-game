@@ -1,0 +1,92 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  background-color: #DBDFEA;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tic-tac-toe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  background-color: black;
+}
+
+#tic-tac-toe-block {
+  background-color: #DBDFEA;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle-pawn {
+  width: 30px;
+  height: 30px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+#x-pawn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  background-color: black;
+  transform: rotate(45deg);
+  outline: none;
+  border: none;
+  background-clip: padding-box;
+  overflow: hidden;
+  backface-visibility: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#x-pawn-item {
+  width: 20px;
+  height: 20px;
+  background-color: #DBDFEA;
+}
+
+#restart-game-btn {
+  margin-top: 40px;
+}
+
+#winner-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #146C94;
+}
+
+#footer p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#footer p a {
+  color: black;
+}
