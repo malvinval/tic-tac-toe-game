@@ -7,7 +7,7 @@ To install and run this Tic Tac Toe game locally on your computer, you need to h
 
 Clone the repository to your local machine using Git:
 
-`git clone https://github.com/malvinval/tic-tac-toe.git`
+`git clone https://github.com/malvinval/tic-tac-toe-game.git`
 
 Navigate to the project directory:
 
